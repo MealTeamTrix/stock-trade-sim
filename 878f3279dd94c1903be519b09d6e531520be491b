@@ -1,0 +1,1 @@
+{"schema":"v1","records":[{"type":"ENVIRONMENT","operation":"CREATED","data":[{"data":"Added packages through pip package manager: numpy, pandas, matplotlib, gymnasium, gym-anytrading, stable-baselines3[extra]","mime":"text/plain"}],"important":null}]}
