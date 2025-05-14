@@ -1,12 +1,18 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# PPO Trading Agent on Apple Stock Data
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project implements a basic reinforcement learning trading agent using the PPO algorithm from `stable-baselines3`. The environment is based on `gym-anytrading` using historical Apple (AAPL) stock data.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Features
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+- Trains a PPO agent to buy/sell/hold based on price movements
+- Simulates trades with 10% of available balance
+- Visualizes trading actions and balance over time
 
+## Getting Started
+
+### Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
