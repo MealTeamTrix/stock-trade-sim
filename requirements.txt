@@ -4,4 +4,4 @@ pandas
 matplotlib
 gymnasium
 gym-anytrading
-stable-baselines3[extra]
+stable-baselines3
